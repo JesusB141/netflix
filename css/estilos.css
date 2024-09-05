@@ -1,0 +1,42 @@
+body {
+
+    background-color: black;
+
+}
+
+.FlexContent {
+
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.divLeft {
+
+    display: flex;
+    width: 50%;
+    align-items: center;
+    /* background-color: azure; */
+
+}
+
+.divRight {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    margin-right: 40px;
+    align-items: center;
+    /* background-color: beige; */
+
+
+}
+
+nav>a, .divRight>a {
+
+
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+
+
+}
